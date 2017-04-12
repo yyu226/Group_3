@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="TMDS_POSITIVE">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="TMDS_NEGTIVE">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="CLOCK_50" Dir="IN"/>
+		<Port Id="sync_in_1" Dir="IN"/>
+		<Port Id="sync_in_2" Dir="IN"/>
+		<Port Id="p1" Dir="IN"/>
+		<Port Id="TMDS_CLOCK_P" Dir="OUT"/>
+		<Port Id="TMDS_CLOCK_N" Dir="OUT"/>
+		<Port Id="sync_out_1" Dir="OUT"/>
+		<Port Id="sync_out_2" Dir="OUT"/>
+		<DiffPair Pos="TMDS_POSITIVE[2]" Neg="TMDS_NEGTIVE[2]"/>
+		<DiffPair Pos="TMDS_POSITIVE[1]" Neg="TMDS_NEGTIVE[1]"/>
+		<DiffPair Pos="TMDS_POSITIVE[0]" Neg="TMDS_NEGTIVE[0]"/>
+		<DiffPair Pos="TMDS_CLOCK_P" Neg="TMDS_CLOCK_N"/>
+	</Ifc>
+</Interface>
+

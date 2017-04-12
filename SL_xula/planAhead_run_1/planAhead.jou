@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.3 (64-bit)
+# Build 147507 by hdbuild on Tue Oct  4 19:13:50 MDT 2011
+# Start of session at: Thu Mar 02 12:19:38 2017
+# Process ID: 6832
+# Log file: C:/Users/yingyu/Desktop/Paper_SL/SL_xula/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/yingyu/Desktop/Paper_SL/SL_xula/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/yingyu/Desktop/Paper_SL/SL_xula/pa.fromNetlist.tcl
+exit
+stop_gui

@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map O.76xd on Fri Mar 10 16:06:08 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "TMDS_POSITIVE<0>" LOCATE = SITE "C7" LEVEL 1;
+COMP "TMDS_POSITIVE<1>" LOCATE = SITE "B6" LEVEL 1;
+COMP "TMDS_POSITIVE<2>" LOCATE = SITE "B5" LEVEL 1;
+COMP "sync_out_1" LOCATE = SITE "J12" LEVEL 1;
+COMP "sync_out_2" LOCATE = SITE "L14" LEVEL 1;
+COMP "v_sync" LOCATE = SITE "N12" LEVEL 1;
+COMP "TMDS_CLOCK_P" LOCATE = SITE "C9" LEVEL 1;
+COMP "sync_in_1" LOCATE = SITE "K14" LEVEL 1;
+COMP "sync_in_2" LOCATE = SITE "J13" LEVEL 1;
+COMP "CLOCK_50" LOCATE = SITE "K3" LEVEL 1;
+SCHEMATIC END;
+

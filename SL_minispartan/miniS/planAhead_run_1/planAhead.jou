@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v13.3 (64-bit)
+# Build 147507 by hdbuild on Tue Oct  4 19:13:50 MDT 2011
+# Start of session at: Tue Mar 07 15:59:57 2017
+# Process ID: 6764
+# Log file: C:/Users/yingyu/Desktop/Paper_SL/SL_minispartan/miniS/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/yingyu/Desktop/Paper_SL/SL_minispartan/miniS/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/yingyu/Desktop/Paper_SL/SL_minispartan/miniS/pa.fromNetlist.tcl
+set_property IOSTANDARD LVTTL [get_ports [list v_sync]]
+startgroup
+set_property loc PAD133 [get_ports v_sync]
+endgroup
+startgroup
+set_property DRIVE {} [get_ports [list sync_in_2]]
+endgroup
+save_design
+exit
+stop_gui

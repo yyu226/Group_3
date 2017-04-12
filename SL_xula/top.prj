@@ -1,0 +1,8 @@
+verilog work "ipcore_dir/dcm.v"
+verilog work "ipcore_dir/dcm/example_design/dcm_exdes.v"
+verilog work "vcntr.v"
+verilog work "rsff.v"
+verilog work "rgboen.v"
+verilog work "ipcore_dir/ddsc.v"
+verilog work "hcntr.v"
+verilog work "top.v"

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Compat Version="1" Minor="4">
+	<CompatParts>
+	</CompatParts>
+	<ConfigModes>
+		<Mode Id="JTAG"/>
+	</ConfigModes>
+	<PortProps>
+		<Port Name="TMDS_POSITIVE[2]" OffChipTerm="FP_3.3_50"/>
+		<Port Name="TMDS_POSITIVE[1]" OffChipTerm="FP_3.3_50"/>
+		<Port Name="TMDS_POSITIVE[0]" OffChipTerm="FP_3.3_50"/>
+		<Port Name="TMDS_NEGTIVE[2]" OffChipTerm="FP_3.3_50"/>
+		<Port Name="TMDS_NEGTIVE[1]" OffChipTerm="FP_3.3_50"/>
+		<Port Name="TMDS_NEGTIVE[0]" OffChipTerm="FP_3.3_50"/>
+		<Port Name="CLOCK_50" OffChipTerm="NONE"/>
+		<Port Name="sync_in_1" OffChipTerm="NONE"/>
+		<Port Name="sync_in_2" OffChipTerm="NONE"/>
+		<Port Name="TMDS_CLOCK_P" OffChipTerm="FP_3.3_50"/>
+		<Port Name="TMDS_CLOCK_N" OffChipTerm="FP_3.3_50"/>
+		<Port Name="sync_out_1" OffChipTerm="FP_VTT_50"/>
+		<Port Name="sync_out_2" OffChipTerm="FP_VTT_50"/>
+		<Port Name="v_sync" OffChipTerm="FP_VTT_50"/>
+	</PortProps>
+</Compat>
+
